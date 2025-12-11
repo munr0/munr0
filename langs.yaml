@@ -1,0 +1,104 @@
+# reference https://github.com/DenverCoder1/custom-icon-badges
+
+# Layout
+categories:
+  - name: "Versed in"
+    stars: "★★★"
+    languages:
+      - matlab
+      - python
+      - c
+
+  - name: "Knowledge of"
+    stars: "★★☆"
+    languages:
+      - arduino
+      - javascript
+      - nunjucks
+      - html
+      - css
+      - latex
+      - typst
+
+  - name: "Interacted with"
+    stars: "★☆☆"
+    languages:
+      - julia
+      - rust
+      - micropython
+
+# Global Badge Style
+badge_config:
+  base_url: "https://custom-icon-badges.demolab.com/badge"
+  style: "for-the-badge"
+  spacing: "&thinsp;"
+  logo_color: "FFF"
+
+# Individual Badge Style
+languages:
+  matlab:
+    name: "MATLAB"
+    logo: "mathworks"
+    color: "C04C0B"
+
+  python:
+    name: "Python"
+    logo: "python"
+    color: "3776AB"
+
+  c:
+    name: "C"
+    logo: "c"
+    color: "A8B9CC"
+    logo_color: "000"
+
+  arduino:
+    name: "Arduino"
+    logo: "arduino"
+    color: "00878F"
+
+  javascript:
+    name: "JavaScript"
+    logo: "javascript"
+    color: "F7DF1E"
+    logo_color: "000"
+
+  nunjucks:
+    name: "Nunjucks"
+    logo: "nunjucks"
+    color: "1C4913"
+
+  html:
+    name: "HTML"
+    logo: "html5"
+    color: "E34F26"
+
+  css:
+    name: "CSS"
+    logo: "css"
+    color: "663399"
+
+  latex:
+    name: "LaTeX"
+    logo: "latex"
+    color: "008080"
+
+  typst:
+    name: "Typst"
+    logo: "typst"
+    color: "239DAD"
+
+  julia:
+    name: "Julia"
+    logo: "julia"
+    color: "9558B2"
+
+  rust:
+    name: "Rust"
+    logo: "rust"
+    color: "D34516"
+
+  micropython:
+    name: "MicroPython"
+    logo: "micropython"
+    color: "2B2728"
